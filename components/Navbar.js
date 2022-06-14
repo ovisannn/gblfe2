@@ -12,19 +12,19 @@ const DropDownMenu = () => {
     <Popover className="relative">
         <div className='my-5 relative'>
             <Popover.Button>
-                <Image src={BurgerBtn} width = "72" height="48"/>
+                <Image alt='burger button' src={BurgerBtn} width = "72" height="48"/>
             </Popover.Button>
         </div>
 
         <Popover.Panel className="absolute z-10 text-black">
             <div className="grid grid-cols-2">
-            <a href="/">Home</a>
-            <a href="/">Harfish</a>
-            <a href="/">Network</a>
-            <a href="/">About us</a>
+            <Link href="/">Home</Link>
+            <Link href="/">Harfish</Link>
+            <Link href="/">Network</Link>
+            <Link href="/">About us</Link>
             </div>
 
-            <img src="/solutions.jpg" alt="" />
+            {/* <img src="/solutions.jpg" alt="" /> */}
         </Popover.Panel>
     </Popover>
     )
