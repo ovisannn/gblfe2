@@ -40,7 +40,7 @@ const DropDownMenu = () => {
 
 const Navbar = () => {
   return (
-    <div className='shadow-md w-full md:h-14 h-16 fixed top-0 left-0 md:px-24 px-0 bg-black text-white font-light md:opacity-75 hover:opacity-100 transition-all ease-linear'>
+    <div className='shadow-md w-full md:h-14 h-16 fixed top-0 left-0 md:px-24 px-0 bg-black text-white font-light md:opacity-75 hover:opacity-100 transition-all ease-linear z-20'>
         <div className="flex justify-between">
                         {/* menu drop down */}
             <div className="visible md:hidden">
